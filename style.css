@@ -1,0 +1,95 @@
+:root {
+    --grey: lightgray;
+    --green: green;
+    --dark-green: forestgreen;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    background-color: var(--grey);
+}
+
+header {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--green);
+}
+
+nav {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--dark-green);
+
+}
+
+nav a {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    border: dashed;
+    border-width: -2rem;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.me {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kylo {
+    display: flex;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+.projects {
+    font-size: 40px;
+}
+
+.contact {
+    font-size: 35px;
+}
+
+.resume {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+.bio {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 992px) {
+    header {
+      background: var(--grey);
+    }
+  }
+  
+  
+@media screen and (max-width: 768px) {
+    nav {
+      background-color: var(--dark-green);
+    }
+  }
+  
